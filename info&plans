@@ -1,0 +1,21 @@
+|***************|
+| FUNCTION USES |
+|***************|
+
+-get_p1()
+  -gets the 
+
+-density_calc()
+  -calculates the density as alpha per meter
+  
+-visible_atmo_calc()
+  -WRITE DESCRIPTION HERE
+
+|**********|
+| UPCOMING |
+|**********|
+
+-Simplified scattering ray
+  -origin of ray is negative light source dir multiplied by the light angle effect uniform
+  -calculate light that has been scattered away already based of ray's length (ray's length: p1 to p2)
+  -using left over light get new scattered light (current visible light)
