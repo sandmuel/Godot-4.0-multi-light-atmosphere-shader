@@ -2,7 +2,7 @@ shader_type spatial;
 render_mode cull_front, unshaded;
 
 
-#include "shader_includes/density_calculations.gdshaderinc"
+#include "density_calculations.gdshaderinc"
 
 
 //main parameters
