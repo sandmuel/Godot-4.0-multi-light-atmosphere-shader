@@ -2,7 +2,7 @@
 | FUNCTION USES |
 |***************|
 
--get_p1()
+-p1()
   -gets the first point the ray "goes through". return this, or camera position if the camera is inside the atmosphere
 
 -density_calc()
@@ -11,11 +11,11 @@
 -visible_atmo_alpha_calc()
   -WRITE DESCRIPTION HERE
 
-|*******************|
-| IMPORTANT CHANGES |
-|*******************|
+|************************|
+| IMPORTANT CHANGES TODO |
+|************************|
 
--change get_p1() to *not* return camera position, since density calc breaks if p1 is not the first point the ray "goes through", but instead the camera position
+-ADD MORE HERE
 
 |**********|
 | UPCOMING |
