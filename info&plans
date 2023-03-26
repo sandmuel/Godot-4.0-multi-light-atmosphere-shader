@@ -3,12 +3,12 @@
 |***************|
 
 -get_p1()
-  -gets the 
+  -gets the first point the ray "goes through". return this, or camera position if the camera is inside the atmosphere
 
 -density_calc()
   -calculates the density as alpha per meter
   
--visible_atmo_calc()
+-visible_atmo_alpha_calc()
   -WRITE DESCRIPTION HERE
 
 |**********|
