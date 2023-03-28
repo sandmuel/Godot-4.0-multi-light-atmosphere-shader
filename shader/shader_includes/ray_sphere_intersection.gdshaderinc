@@ -1,5 +1,5 @@
-#ifndef MATH_GDSHADERINC
-#define MATH_GDSHADERINC
+#ifndef RAY_SPHERE_INTERSECTION_GDSHADERINC
+#define RAY_SPHERE_INTERSECTION_GDSHADERINC
 
 
 vec2 get_t1_and_t2(float radius, vec3 ray_origin, vec3 ray_dir) {
