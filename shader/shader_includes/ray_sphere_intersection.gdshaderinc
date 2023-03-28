@@ -18,7 +18,7 @@ vec2 get_t1_and_t2(vec3 atmo_center, float radius, vec3 ray_origin, vec3 ray_dir
 	float t = dot(ray_to_center, ray_dir); //distance (from ray_origin) to p
 
 	//get p and it's distance to p1 and p2
-	vec3 p = ray_origin+(ray_dir*t); //point between the first and last intersection points
+	vec3 p = vec_from_ray_dist(ray_origin, ray_dir, t); //point between the first and last intersection points
 	float center_to_p_length = length(atmo_center-p); //distance from the center to p
 	//value below is found based on circle formula
 	float p_dist_from_intersections = sqrt(pow(radius, 2)-pow(center_to_p_length, 2)); //dist from p to p1 and p2
@@ -38,8 +38,7 @@ vec2 get_t1_and_t2(vec3 atmo_center, float radius, vec3 ray_origin, vec3 ray_dir
 		t2 = t+p_dist_from_intersections; //add the distance (distance to the intersection from t)
 	}
 
-	//this doesn't need explaining ;)
-	return vec2(t1, t2);
+	return vec2(t1, t2); //this doesn't need explaining ;)
 }
 
 
