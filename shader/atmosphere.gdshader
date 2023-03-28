@@ -20,7 +20,7 @@ void fragment() {
 	//update some varying values
 	cam_pos = VIEW_MATRIX[3].xyz;
 	cam_dir = VIEW;
-	model_pos = MODEL_MATRIX[2].xyz;
+	model_pos = MODEL_MATRIX[3].xyz;
 	frag_z = FRAGCOORD.z;
 
 	//alpha calculations
