@@ -2,7 +2,7 @@
 #define RAY_SPHERE_INTERSECTION_GDSHADERINC
 
 
-vec3 vec_from_ray_dist(vec3 ray_origin, vec3 ray_dir, float dist) {
+vec3 vec_from_ray_length(vec3 ray_origin, vec3 ray_dir, float dist) {
 	return ray_origin+(ray_dir*dist);
 }
 
