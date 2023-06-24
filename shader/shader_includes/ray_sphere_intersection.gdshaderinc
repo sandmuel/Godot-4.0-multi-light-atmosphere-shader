@@ -7,7 +7,7 @@ vec3 vec_from_ray_length(vec3 ray_origin, vec3 ray_dir, float dist) {
 }
 
 vec2 get_t1_and_t2(vec3 atmo_center, float radius, vec3 ray_origin, vec3 ray_dir) {
-	//NOTE: the "t"s are distances from ray_origin to the matching "p"s
+	//NOTE: the "t"s are distances from ray_origin to the corresponding "p"s
 
 	/**********************************************************************************************************/
 	/* get the point between the first intersection and the last, then find the distance to the intersections */
